@@ -3,11 +3,7 @@ import MyComponent from './MyComponent';
 import './App.css';
 
 const App = () =>{
-  return <MyComponent name="React"/>;
+  return <MyComponent>리액트</MyComponent>;
 }
-
-MyComponent.defaultProps = {
-  name: '기본 이름'
-};
 
 export default App;
